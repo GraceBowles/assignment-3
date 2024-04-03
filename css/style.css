@@ -1,9 +1,10 @@
-body {
-    margin: 0 auto;
-}
 
 * {
     box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
 }
 
 header {
@@ -19,8 +20,8 @@ header {
 header .wrapper {
     max-width: 940px;
     display: flex;
-    align-items: center;
     justify-content: space-between ;
+    align-items: center;
 }
 
 .name {
@@ -61,12 +62,19 @@ h1 {
     text-shadow: 2px 2px 6px #000;
     max-width: 60%;
     text-align: center;
-    background-color: #000 (0, 0 , 0.496);
+    background-color: rgba(0, 0, 0, 0.496);
     padding: 20px;
 }
 
 img {
     width: 100%;
+}
+
+#about-me {
+    display: flex;
+    justify-content: center;
+    max-width: 940px;
+
 }
 
 
