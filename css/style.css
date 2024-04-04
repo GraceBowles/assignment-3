@@ -83,6 +83,23 @@ img {
     width: 35%;
 }
 
+#services {
+    background-color: #fafafa;
+}
+
+.article {
+    background-color: #fff;
+}
+
+.grid-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+
+
+
 
 .gallery{
     display: grid;
